@@ -1,0 +1,50 @@
+body{
+  background-color: #1E202B;
+  background-image: url(.//Assets/banner.png);
+  background-repeat: no-repeat;
+}
+.bg-main-color{
+  background-color: #1E202B;
+}
+.bg-sec-color {
+  background-color: #262936d1;
+}
+.text-light-blue{
+  color:#009ad8;
+}
+.footer-icons {
+  width: 20px;
+  height: 20px;
+}
+.item-header-border-left {
+  border-top-left-radius:16px ;
+}
+.item-header-border-right {
+  border-top-right-radius:16px ;
+}
+.item-border-left{
+  border-top-left-radius:16px ;
+  border-bottom-left-radius:16px ;
+}
+
+.item-border-right {
+  border-top-right-radius:16px ;
+  border-bottom-right-radius:16px ;
+}
+
+.search-input input {
+  border: 2px solid transparent; 
+  outline: none; 
+  transition: border-color 0.3s ease-in-out; 
+}
+
+.search-input input:focus {
+  border: 2px solid #262936d1; 
+  box-shadow: 0 0 10px #262936d1; 
+}
+.loading{
+  width: 100%;
+  background-color: #797b85;
+  height: 100vh;
+
+}
